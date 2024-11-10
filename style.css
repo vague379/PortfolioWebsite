@@ -1,0 +1,69 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #FAF4E5; /* Beige */
+    color: #3E2F20; /* Dark Brown */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.intro {
+    font-style: italic;
+    color: #795548;
+}
+
+.contact-info a {
+    color: #3E2F20;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+/* Section Titles */
+h2 {
+    color: #795548;
+    margin-bottom: 10px;
+}
+
+/* Sections */
+section {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #FFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info, .skills, .education {
+    text-align: center;
+}
+
+.experience-item {
+    margin-bottom: 10px;
+}
+
+/* Links */
+a:hover {
+    text-decoration: underline;
+}
